@@ -24,7 +24,7 @@ const Google = () => {
         </div>
 
       {/* Input, search and camera container */}
-      <div className='flex w-1/2 m-auto px-4 py-2 border-2 rounded-full items-center'>
+      <div className='flex w-1/2 px-4 h-30 py-2 border-2 rounded-full items-center'>
 
         {/* Search container */}
         <div className='pr-1'>
@@ -32,15 +32,17 @@ const Google = () => {
         </div>
 
         {/* input */}
-        <input type="text" className=' h-full mx-auto w-full focus:outline-none'/>
+        <input type="text" className=' h-full mx-auto w-11/12 focus:outline-none' placeholder='placeholder text focus:outline-none'/>
         
         {/* camera container */}
         <div className='px-1'>
           <HiOutlineCamera className='h-6 w-6'/>
         </div>
+        
       </div>
-      <div className='aboslute top-0'>
-        hi
+      <div assName='w-1/2 pt-3'>
+        <button className='m-5 bg-gray-200 rounded-sm p-2'>Google Search</button>
+        <button className=' bg-gray-200 rounded-sm p-2'>I'm Feeling Lucky</button>
       </div>
     </div>
   )
