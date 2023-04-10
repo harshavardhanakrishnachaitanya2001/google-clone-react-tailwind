@@ -22,9 +22,11 @@ const Google = () => {
             <img src={profile} alt='' className='rounded-full w-8 h-8'/>
           </div>
         </div>
-
+        <div className='text-6xl text-center'>
+          Googl<span className='inline-block rotate-[-15deg]'>e</span>
+        </div>
       {/* Input, search and camera container */}
-      <div className='flex w-1/2 px-4 h-30 py-2 border-2 rounded-full items-center'>
+      <div className='mt-7 flex w-1/2 px-4 h-30 py-2 border-2 rounded-full items-center'>
 
         {/* Search container */}
         <div className='pr-1'>
