@@ -34,7 +34,7 @@ const Google = () => {
         </div>
 
         {/* input */}
-        <input type="text" className=' h-full mx-auto w-11/12 focus:outline-none' placeholder='placeholder text focus:outline-none'/>
+        <input type="text" className=' h-full mx-auto w-11/12 focus:outline-none'/>
         
         {/* camera container */}
         <div className='px-1'>
